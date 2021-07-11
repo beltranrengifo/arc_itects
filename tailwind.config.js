@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        amiri: ['"Amiri"', 'serif'],
+        base: ['"Nunito Sans"', 'sans-serif'], // font-base
+        cursive: ['"Amiri"', 'serif'], // font-cursive
       },
     },
   },
